@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	int n,q;
+	string s;
+	cin>>n>>s>>q;
+	int t;
+	int a,b;
+//	cout<<s<<endl;
+	string s1,s2;
+	s1 = s.substr(0,n);
+	s2 = s.substr(n,n);
+	for(int i=0;i<q;i++){
+		cin>>t>>a>>b;
+		if(t==2){
+			string tmp_s = s2;
+			s1 = s2;
+			s2 = tmp_s;
+		}else{
+			if(a-1<n){
+				if(b-1<n){
+					swap(s1[a-1], s1[b-2]);
+				}else{
+					swap(s1[a-1],s2[b-n-1]);
+				}
+			}else{
+				if(b-1<n){
+					swap(s2[a-n-1], s1[b-2]);
+				}else{
+					swap(s1[a-n-1],s2[b-n-1]);
+				}
+			}
+		}
+//	cout<<s<<endl;
+	}
+	cout<<s1<<s2<<endl;
+
+
+
+	return 0;
+}

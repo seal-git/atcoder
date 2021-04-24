@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;2020-03-14&apos; を &apos;2020-03-14-A&apos; に変更します" description="リソース &apos;2020-03-14&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/2020-03-14" name="2020-03-14-A" stamp="1584190542217" updateReferences="true"/>
+</session>

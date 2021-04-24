@@ -1,0 +1,11 @@
+21:47:46 **** インクリメンタル・ビルド of configuration Debug for project 2020-03-14 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:22:6: warning: unused variable 'length_of_str' [-Wunused-variable]
+  int length_of_str = (int) str.length();
+      ^~~~~~~~~~~~~
+g++ -o 2020-03-14.exe main.o 
+
+21:47:47 Build Finished. 0 errors, 1 warnings. (経過 442ms)
+

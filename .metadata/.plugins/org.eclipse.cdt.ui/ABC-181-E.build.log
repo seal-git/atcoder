@@ -1,0 +1,7 @@
+18:43:24 **** Rebuild of configuration Debug for project ABC-181-E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o ABC-181-E.exe main.o 
+
+18:43:29 Build Finished (took 4s.965ms)
+

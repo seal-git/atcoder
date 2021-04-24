@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	int n, k;
+	cin>>n>>k;
+	int a[n];
+	double kita[n];
+	for(int i=0;i<n;i++)
+	{
+		cin>>a[i];
+		kita[i] = ((double)a[i]+1)/2;
+	}
+	double kita_sum = kita[0]+kita[1]+kita[2]/n;
+	double ans = kita_sum;
+	for(int i=3;i<n;i++){
+		kita_sum = kita_sum - kita[i-3] + kita[i]/n;
+		ans = max(kita_sum, ans);
+	}
+	printf("%.8f", ans);
+
+
+
+	   return 0;
+}

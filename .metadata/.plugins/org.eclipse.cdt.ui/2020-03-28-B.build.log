@@ -1,0 +1,7 @@
+21:43:53 **** インクリメンタル・ビルド of configuration Debug for project 2020-03-28-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2020-03-28-B.exe main.o 
+
+21:43:54 Build Finished (took 1s.124ms)
+

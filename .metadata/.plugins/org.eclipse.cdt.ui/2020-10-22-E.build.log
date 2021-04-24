@@ -1,0 +1,51 @@
+18:15:26 **** インクリメンタル・ビルド of configuration Debug for project 2020-10-22-E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:1: error: expected ';' after class definition
+ }
+ ^
+..\main.cpp: In constructor 'Tree::Tree(int)':
+..\main.cpp:9:7: error: expected '(' before 'int'
+   for int(i=0; i<N;)
+       ^~~
+..\main.cpp:9:11: error: 'i' was not declared in this scope
+   for int(i=0; i<N;)
+           ^
+..\main.cpp:10:2: error: expected primary-expression before '}' token
+  }
+  ^
+..\main.cpp: In member function 'int Tree::Union(int)':
+..\main.cpp:14:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:48:2: error: 'tree' was not declared in this scope
+  tree t(H*W);
+  ^~~~
+..\main.cpp:53:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j-1);
+      ^
+..\main.cpp:53:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j-1);
+        ^~~~~
+..\main.cpp:56:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j);
+      ^
+..\main.cpp:56:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j);
+        ^~~~~
+..\main.cpp:59:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j+1);
+      ^
+..\main.cpp:59:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j+1);
+        ^~~~~
+..\main.cpp:62:6: error: 't' was not declared in this scope
+      t.union(i*W+j, i*W+j-1);
+      ^
+..\main.cpp:62:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, i*W+j-1);
+        ^~~~~
+
+18:15:28 Build Finished (took 1s.673ms)
+

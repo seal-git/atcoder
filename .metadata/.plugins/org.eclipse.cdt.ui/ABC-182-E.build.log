@@ -1,0 +1,11 @@
+18:36:38 **** インクリメンタル・ビルド of configuration Debug for project ABC-182-E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:11:6: warning: unused variable 'C' [-Wunused-variable]
+  int C[M][2];
+      ^
+g++ -o ABC-182-E.exe main.o 
+
+18:36:40 Build Finished (took 2s.658ms)
+

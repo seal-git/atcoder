@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	int n,q;
+	string s;
+	cin>>n>>s>>q;
+	int t;
+	char a,b;
+	for(int i=0;i<q;i++){
+		cin>>t>>a>>b;
+		if(t==1){
+			string new_s = s.substr(0,n)+s.substr(n,n);
+			s = new_s;
+		}else{
+			string new_s = s.substr(0,a)+s[b-1]+s.substr(a,b-a)+s[a-1]+s.substr(b,-1);
+			s = new_s;
+		}
+	}
+	cout<<s<<endl;
+
+
+
+	return 0;
+}

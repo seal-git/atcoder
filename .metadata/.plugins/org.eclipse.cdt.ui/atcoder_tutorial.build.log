@@ -1,0 +1,7 @@
+18:16:00 **** インクリメンタル・ビルド of configuration Debug for project atcoder_tutorial ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o atcoder_tutorial.exe main.o 
+
+18:16:02 Build Finished (took 1s.809ms)
+

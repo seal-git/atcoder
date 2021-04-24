@@ -1,0 +1,42 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2020/03/06
+ *      Author: seal0
+ */
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	cout << "hello! "<<endl;
+	char a[2][32];
+	char str1[32];
+	char str2[32];
+	int i = 0;
+	cin >> str1>>str2;
+//	*a[0] = *str1;
+//	*a[1] = *str2;
+//	cout<<str1<<endl;
+//	cout<<str2<<endl;
+	int j = 0;
+	printf("%d\n", i+j);
+
+//
+//	string b[2];
+//	string separater=" ";
+//	int str_n = a[1].find(separater);
+//	int str_length = a[1].length();
+//	b[0] = a[1].substr(0, str_n);
+//	b[1]  = a[1].substr(str_n+1, str_length-str_n-1);
+//
+//	int sum = stoi(a[0])+stoi(b[0])+stoi(b[i]);
+//
+//	cout << sum << " " << a[2] << endl;
+
+	return 0;
+	}
+
+
+

@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	int n,q;
+	string s;
+	cin>>n>>s>>q;
+	int t;
+	int a,b;
+	cout<<s<<endl;
+	for(int i=0;i<q;i++){
+		cin>>t>>a>>b;
+		if(t==1){
+			string new_s = s.substr(0,n)+s.substr(n,n);
+			s = new_s;
+		}else{
+			swap(s[a], s[b]);
+		}
+	cout<<s<<endl;
+	}
+	cout<<s<<endl;
+
+
+
+	return 0;
+}

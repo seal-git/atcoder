@@ -1,0 +1,14 @@
+22:40:31 **** インクリメンタル・ビルド of configuration Debug for project 2021-04-24-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:8:9: warning: 'm' is used uninitialized in this function [-Wuninitialized]
+  int a[m];
+         ^
+..\main.cpp:10:15: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  for(int i=0;i<n;i++){
+              ~^~
+g++ -o 2021-04-24-D.exe main.o 
+
+22:40:35 Build Finished (took 4s.410ms)
+
