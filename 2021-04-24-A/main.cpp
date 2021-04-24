@@ -1,15 +1,17 @@
-#include<bits/stdc++.h>
-#include<iostream>
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include <math.h>
+#include <queue>
+#include <algorithm>
+#include <utility>
+#include <vector>
+#include <tuple>
+#include <numeric>
 using namespace std;
 
 
-int main(){
-	int a,b,c;
-	cin>>a>>b>>c;
-	if(a*a+b*b<c*c){
-		cout<<"Yes"<<endl;
-	}else{
-		cout<<"No"<<endl;
-	}
-	return 0;
+int main(int argc, char* argv[]){
+int a,b,c;
+if()
 }
