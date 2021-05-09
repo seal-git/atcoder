@@ -1,7 +1,22 @@
-21:13:14 **** インクリメンタル・ビルド of configuration Debug for project 2021-04-24-A ****
+21:01:12 **** Rebuild of configuration Debug for project 2021-04-24-A ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o 2021-04-24-A.exe main.o 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:16:4: error: expected primary-expression before ')' token
+ if()
+    ^
+..\main.cpp:17:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:15:5: warning: unused variable 'a' [-Wunused-variable]
+ int a,b,c;
+     ^
+..\main.cpp:15:7: warning: unused variable 'b' [-Wunused-variable]
+ int a,b,c;
+       ^
+..\main.cpp:15:9: warning: unused variable 'c' [-Wunused-variable]
+ int a,b,c;
+         ^
 
-21:13:17 Build Finished (took 2s.823ms)
+21:01:13 ビルドに失敗しました。2 errors, 3 warnings. (経過 343ms)
 

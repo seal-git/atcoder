@@ -1,1 +1,7 @@
-Info: Nothing to build for 2020-09-17-2
+21:00:07 **** Rebuild of configuration Debug for project 2020-09-17-2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2020-09-17-2.exe main.o 
+
+21:00:09 Build Finished. 0 errors, 0 warnings. (経過 1s.197ms)
+

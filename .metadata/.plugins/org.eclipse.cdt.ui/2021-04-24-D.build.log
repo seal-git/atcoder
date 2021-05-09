@@ -1,4 +1,4 @@
-22:40:31 **** インクリメンタル・ビルド of configuration Debug for project 2021-04-24-D ****
+21:01:15 **** Rebuild of configuration Debug for project 2021-04-24-D ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 ..\main.cpp: In function 'int main()':
@@ -10,5 +10,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp"
               ~^~
 g++ -o 2021-04-24-D.exe main.o 
 
-22:40:35 Build Finished (took 4s.410ms)
+21:01:16 Build Finished. 0 errors, 2 warnings. (経過 1s.141ms)
 

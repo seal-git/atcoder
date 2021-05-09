@@ -1,7 +1,10 @@
-18:16:00 **** インクリメンタル・ビルド of configuration Debug for project atcoder_tutorial ****
+21:01:20 **** Rebuild of configuration Debug for project atcoder_tutorial ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o atcoder_tutorial.exe main.o 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:16:18: error: cast from 'char*' to 'int' loses precision [-fpermissive]
+  n = (int) argv[1];
+                  ^
 
-18:16:02 Build Finished (took 1s.809ms)
+21:01:20 ビルドに失敗しました。1 errors, 0 warnings. (経過 292ms)
 

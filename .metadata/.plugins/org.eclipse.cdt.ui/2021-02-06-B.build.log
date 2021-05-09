@@ -1,1 +1,11 @@
-Info: Nothing to build for 2021-02-06-B
+21:01:04 **** Rebuild of configuration Debug for project 2021-02-06-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:17:14: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+ for(int i=0;i<a.size();i++){
+             ~^~~~~~~~~
+g++ -o 2021-02-06-B.exe main.o 
+
+21:01:06 Build Finished. 0 errors, 1 warnings. (経過 1s.196ms)
+

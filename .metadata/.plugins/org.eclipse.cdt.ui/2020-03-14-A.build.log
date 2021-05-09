@@ -1,1 +1,11 @@
-Info: Nothing to build for 2020-03-14-A
+20:59:50 **** Rebuild of configuration Debug for project 2020-03-14-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:22:6: warning: unused variable 'length_of_str' [-Wunused-variable]
+  int length_of_str = (int) str.length();
+      ^~~~~~~~~~~~~
+g++ -o 2020-03-14-A.exe main.o 
+
+20:59:57 Build Finished. 0 errors, 1 warnings. (経過 7s.49ms)
+
