@@ -1,4 +1,4 @@
-21:01:20 **** Rebuild of configuration Debug for project atcoder_tutorial ****
+21:01:03 **** インクリメンタル・ビルド of configuration Debug for project atcoder_tutorial ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 ..\main.cpp: In function 'int main(int, char**)':
@@ -6,5 +6,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp"
   n = (int) argv[1];
                   ^
 
-21:01:20 ビルドに失敗しました。1 errors, 0 warnings. (経過 292ms)
+21:01:04 ビルドに失敗しました。1 errors, 0 warnings. (経過 295ms)
 

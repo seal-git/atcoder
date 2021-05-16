@@ -1,11 +1,1 @@
-21:00:33 **** Rebuild of configuration Debug for project 2021-01-09-A ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp: In function 'long long int pow_mod(long long int, long long int, long long int)':
-..\main.cpp:17:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-g++ -o 2021-01-09-A.exe main.o 
-
-21:00:35 Build Finished. 0 errors, 1 warnings. (経過 1s.138ms)
-
+Info: Nothing to build for 2021-01-09-A

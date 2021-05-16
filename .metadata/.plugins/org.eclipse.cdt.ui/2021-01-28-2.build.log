@@ -1,17 +1,1 @@
-21:00:51 **** Rebuild of configuration Debug for project 2021-01-28-2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp: In function 'int main()':
-..\main.cpp:11:15: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
-  for(int i=0;i<s.size();i++){
-              ~^~~~~~~~~
-..\main.cpp:15:15: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
-  for(int i=0;i<s.size()-1;i++){
-              ~^~~~~~~~~~~
-..\main.cpp:22:15: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
-  for(int i=0;i<ss.size();i++){
-              ~^~~~~~~~~~
-g++ -o 2021-01-28-2.exe main.o 
-
-21:00:52 Build Finished. 0 errors, 3 warnings. (経過 1s.152ms)
-
+Info: Nothing to build for 2021-01-28-2
