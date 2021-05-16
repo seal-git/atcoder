@@ -1,7 +1,7 @@
-21:00:01 **** Rebuild of configuration Debug for project 2020-08-07-1 ****
+21:01:02 **** インクリメンタル・ビルド of configuration Debug for project 2020-08-07-1 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o 2020-08-07-1.exe main.o 
 
-21:00:02 Build Finished. 0 errors, 0 warnings. (経過 627ms)
+21:01:02 Build Finished. 0 errors, 0 warnings. (経過 535ms)
 

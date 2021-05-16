@@ -1,11 +1,1 @@
-21:00:18 **** Rebuild of configuration Debug for project 2020-10-22-A ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp: In function 'int main()':
-..\main.cpp:12:5: warning: unused variable 'un_num' [-Wunused-variable]
- int un_num = 0;
-     ^~~~~~
-g++ -o 2020-10-22-A.exe main.o 
-
-21:00:19 Build Finished. 0 errors, 1 warnings. (経過 1s.194ms)
-
+Info: Nothing to build for 2020-10-22-A

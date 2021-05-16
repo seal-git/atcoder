@@ -1781,3 +1781,539 @@ C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:142
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o 2021-05-09-C.exe main.o 
+Info: Nothing to build for 2020-03-14-A
+Info: Nothing to build for 2020-03-14-B
+Info: Nothing to build for 2020-03-14-C
+Info: Nothing to build for 2020-08-07-1
+Info: Nothing to build for 2020-09-09-1
+Info: Nothing to build for 2020-09-09-2
+Info: Nothing to build for 2020-09-09-3
+Info: Nothing to build for 2020-09-17-1
+Info: Nothing to build for 2020-09-17-2
+Info: Nothing to build for 2020-09-17-3
+Info: Nothing to build for 2020-09-17-4
+Info: Nothing to build for 2020-09-18-1
+Info: Nothing to build for 2020-09-18-2
+Info: Nothing to build for 2020-10-07-A
+Info: Nothing to build for 2020-10-07-D
+Info: Nothing to build for 2020-10-22-A
+Info: Nothing to build for 2020-10-22-B
+Info: Nothing to build for 2020-10-22-D
+20:59:31 **** インクリメンタル・ビルド of configuration Debug for project 2020-10-22-E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:2: error: expected ';' after class definition
+ }
+  ^
+  ;
+..\main.cpp: In constructor 'Tree::Tree(int)':
+..\main.cpp:9:7: error: expected '(' before 'int'
+   for int(i=0; i<N;)
+       ^~~
+       (
+..\main.cpp:9:11: error: 'i' was not declared in this scope
+   for int(i=0; i<N;)
+           ^
+..\main.cpp:10:2: error: expected primary-expression before '}' token
+  }
+  ^
+..\main.cpp: In member function 'int Tree::Union(int)':
+..\main.cpp:14:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:48:2: error: 'tree' was not declared in this scope
+  tree t(H*W);
+  ^~~~
+..\main.cpp:48:2: note: suggested alternative: 'Tree'
+  tree t(H*W);
+  ^~~~
+  Tree
+..\main.cpp:53:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j-1);
+      ^
+..\main.cpp:53:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j-1);
+        ^~~~~
+..\main.cpp:56:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j);
+      ^
+..\main.cpp:56:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j);
+        ^~~~~
+..\main.cpp:59:6: error: 't' was not declared in this scope
+      t.union(i*W+j, (i-1)*W+j+1);
+      ^
+..\main.cpp:59:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, (i-1)*W+j+1);
+        ^~~~~
+..\main.cpp:62:6: error: 't' was not declared in this scope
+      t.union(i*W+j, i*W+j-1);
+      ^
+..\main.cpp:62:8: error: expected unqualified-id before 'union'
+      t.union(i*W+j, i*W+j-1);
+        ^~~~~
+Info: Nothing to build for 2020-12-10-1
+Info: Nothing to build for 2020-12-10-2
+Info: Nothing to build for 2020-12-13-A
+Info: Nothing to build for 2020-12-13-B
+Info: Nothing to build for 2020-12-13-C
+Info: Nothing to build for 2020-12-13-D
+Info: Nothing to build for 2021-01-09-A
+Info: Nothing to build for 2021-01-09-B
+Info: Nothing to build for 2021-01-21-1
+Info: Nothing to build for 2021-01-21-2
+Info: Nothing to build for 2021-01-21-3
+Info: Nothing to build for 2021-01-21-athletics
+Info: Nothing to build for 2021-01-23-1
+Info: Nothing to build for 2021-01-23-A
+Info: Nothing to build for 2021-01-23-B
+Info: Nothing to build for 2021-01-23-C
+Info: Nothing to build for 2021-01-23-D
+Info: Nothing to build for 2021-01-23-E
+Info: Nothing to build for 2021-01-28-1
+Info: Nothing to build for 2021-01-28-2
+Info: Nothing to build for 2021-01-28-3
+Info: Nothing to build for 2021-01-28-4
+Info: Nothing to build for 2021-01-28-5
+Info: Nothing to build for 2021-02-04-1
+Info: Nothing to build for 2021-02-04-2
+Info: Nothing to build for 2021-02-04-3
+Info: Nothing to build for 2021-02-04-4
+Info: Nothing to build for 2021-02-04-5
+Info: Nothing to build for 2021-02-06-A
+Info: Nothing to build for 2021-02-06-B
+Info: Nothing to build for 2021-02-06-C
+Info: Nothing to build for 2021-02-06-D
+Info: Nothing to build for 2021-02-06-E
+Info: Nothing to build for 2021-04-22-3
+Info: Nothing to build for 2021-04-22-4
+21:00:37 **** インクリメンタル・ビルド of configuration Debug for project 2021-04-24-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:16:4: error: expected primary-expression before ')' token
+ if()
+    ^
+..\main.cpp:17:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:15:5: warning: unused variable 'a' [-Wunused-variable]
+ int a,b,c;
+     ^
+..\main.cpp:15:7: warning: unused variable 'b' [-Wunused-variable]
+ int a,b,c;
+       ^
+..\main.cpp:15:9: warning: unused variable 'c' [-Wunused-variable]
+ int a,b,c;
+         ^
+Info: Nothing to build for 2021-04-24-B
+Info: Nothing to build for 2021-04-24-C
+Info: Nothing to build for 2021-04-24-D
+21:00:38 **** Rebuild of configuration Debug for project 2021-05-15-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-A.exe main.o 
+21:01:00 **** Rebuild of configuration Debug for project 2021-05-15-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-B.exe main.o 
+21:01:01 **** Rebuild of configuration Debug for project 2021-05-15-C ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-C.exe main.o 
+21:01:02 **** インクリメンタル・ビルド of configuration Debug for project 2020-08-07-1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2020-08-07-1.exe main.o 
+21:01:02 **** インクリメンタル・ビルド of configuration Debug for project 2021-04-24-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:16:4: error: expected primary-expression before ')' token
+ if()
+    ^
+..\main.cpp:17:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:15:5: warning: unused variable 'a' [-Wunused-variable]
+ int a,b,c;
+     ^
+..\main.cpp:15:7: warning: unused variable 'b' [-Wunused-variable]
+ int a,b,c;
+       ^
+..\main.cpp:15:9: warning: unused variable 'c' [-Wunused-variable]
+ int a,b,c;
+         ^
+21:01:03 **** Rebuild of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+21:01:03 **** インクリメンタル・ビルド of configuration Debug for project atcoder_tutorial ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:16:18: error: cast from 'char*' to 'int' loses precision [-fpermissive]
+  n = (int) argv[1];
+                  ^
+21:01:04 **** インクリメンタル・ビルド of configuration Debug for project template ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-A.exe main.o 
+21:03:17 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-A.exe main.o 
+21:04:16 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-A.exe main.o 
+21:08:44 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-B.exe main.o 
+21:09:33 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-B.exe main.o 
+21:09:53 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-B.exe main.o 
+21:23:24 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-C ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-C.exe main.o 
+21:37:17 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-C ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-C.exe main.o 
+21:38:52 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-C ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-C.exe main.o 
+22:08:18 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:18:6: warning: unused variable 'h_s' [-Wunused-variable]
+  int h_s = 0;
+      ^~~
+..\main.cpp:19:6: warning: unused variable 'w_s' [-Wunused-variable]
+  int w_s = 0;
+      ^~~
+g++ -o 2021-05-15-D.exe main.o 
+22:11:20 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:12:32 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:13:58 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:14:30 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:14:46 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:16:22 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:39:5: error: expected '}' before 'else'
+    }else{
+     ^~~~
+..\main.cpp:26:14: note: to match this '{'
+    if(i%2==0){
+              ^
+22:17:06 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:17:31 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:19:32 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+22:19:42 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-15-D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-15-D.exe main.o 
+Info: Nothing to build for template
+20:59:25 **** Rebuild of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+20:59:48 **** Rebuild of configuration Debug for project 2021-05-16-B ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-B.exe main.o 
+21:07:17 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:10:15 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:35:9: error: expected primary-expression before ')' token
+    if(n%)
+         ^
+..\main.cpp:38:3: error: expected primary-expression before '}' token
+   }
+   ^
+21:10:33 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:14:39 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:43:41: error: no matching function for call to 'min(bool, long long int&)'
+     ans = min(ans_a+ans_b+ans_c<ans, ans)
+                                         ^
+In file included from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\main.cpp:1:
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:195:5: note: candidate: 'template<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)'
+     min(const _Tp& __a, const _Tp& __b)
+     ^~~
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:195:5: note:   template argument deduction/substitution failed:
+..\main.cpp:43:41: note:   deduced conflicting types for parameter 'const _Tp' ('bool' and 'long long int')
+     ans = min(ans_a+ans_b+ans_c<ans, ans)
+                                         ^
+In file included from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h:39,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:40,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:38,
+                 from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:39,
+                 from ..\main.cpp:1:
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:243:5: note: candidate: 'template<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)'
+     min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:243:5: note:   template argument deduction/substitution failed:
+..\main.cpp:43:41: note:   deduced conflicting types for parameter 'const _Tp' ('bool' and 'long long int')
+     ans = min(ans_a+ans_b+ans_c<ans, ans)
+                                         ^
+In file included from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:62,
+                 from ..\main.cpp:6:
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3450:5: note: candidate: 'template<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)'
+     min(initializer_list<_Tp> __l)
+     ^~~
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3450:5: note:   template argument deduction/substitution failed:
+..\main.cpp:43:41: note:   mismatched types 'std::initializer_list<_Tp>' and 'bool'
+     ans = min(ans_a+ans_b+ans_c<ans, ans)
+                                         ^
+In file included from C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:62,
+                 from ..\main.cpp:6:
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3456:5: note: candidate: 'template<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)'
+     min(initializer_list<_Tp> __l, _Compare __comp)
+     ^~~
+C:/pleiades/eclipse/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:3456:5: note:   template argument deduction/substitution failed:
+..\main.cpp:43:41: note:   mismatched types 'std::initializer_list<_Tp>' and 'bool'
+     ans = min(ans_a+ans_b+ans_c<ans, ans)
+                                         ^
+..\main.cpp: At global scope:
+..\main.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+21:14:44 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:43:38: error: expected ';' before '}' token
+     ans = min(ans_a+ans_b+ans_c, ans)
+                                      ^
+                                      ;
+     }
+     ~                                 
+..\main.cpp: At global scope:
+..\main.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+21:14:53 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:51:1: error: expected declaration before '}' token
+ }
+ ^
+21:15:11 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:16:34 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:18:40 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:19:30 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:19:52 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:21:00 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:21:31 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:22:59 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:24:19 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:24:30 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:24:51 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:25:34 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:26:31 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:27:29 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:27:54 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:30:50 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:31:15 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:31:20 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:36:45 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:37:36 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:41:22 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:46:39 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:52:13: error: 'c' was not declared in this scope
+     ans_c = c;
+             ^
+..\main.cpp:61:3: error: 'c' was not declared in this scope
+   c++;
+   ^
+21:52:04 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:43:26: error: 'a' was not declared in this scope
+    long long ans_c = n - a*two[ans_b];
+                          ^
+..\main.cpp:63:13: error: 'c' was not declared in this scope
+     ans_c = c;
+             ^
+..\main.cpp:72:3: error: 'c' was not declared in this scope
+   c++;
+   ^
+21:52:07 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:63:13: error: 'c' was not declared in this scope
+     ans_c = c;
+             ^
+..\main.cpp:72:3: error: 'c' was not declared in this scope
+   c++;
+   ^
+21:53:35 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:54:03 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:54:10 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:54:18 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:54:49 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:40:15: error: 'Endl' was not declared in this scope
+  cout<<ans_b<<Endl;
+               ^~~~
+21:54:52 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:55:33 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:56:33 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:57:40 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:57:52 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:57:56 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 
+21:59:20 **** インクリメンタル・ビルド of configuration Debug for project 2021-05-16-A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o 2021-05-16-A.exe main.o 

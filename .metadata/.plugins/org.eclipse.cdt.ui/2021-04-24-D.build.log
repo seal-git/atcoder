@@ -1,14 +1,1 @@
-21:01:15 **** Rebuild of configuration Debug for project 2021-04-24-D ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp: In function 'int main()':
-..\main.cpp:8:9: warning: 'm' is used uninitialized in this function [-Wuninitialized]
-  int a[m];
-         ^
-..\main.cpp:10:15: warning: 'n' is used uninitialized in this function [-Wuninitialized]
-  for(int i=0;i<n;i++){
-              ~^~
-g++ -o 2021-04-24-D.exe main.o 
-
-21:01:16 Build Finished. 0 errors, 2 warnings. (経過 1s.141ms)
-
+Info: Nothing to build for 2021-04-24-D
