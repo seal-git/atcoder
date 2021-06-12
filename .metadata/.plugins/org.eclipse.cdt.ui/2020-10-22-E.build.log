@@ -1,4 +1,4 @@
-20:59:31 **** インクリメンタル・ビルド of configuration Debug for project 2020-10-22-E ****
+20:46:25 **** インクリメンタル・ビルド of configuration Debug for project 2020-10-22-E ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 ..\main.cpp:23:2: error: expected ';' after class definition
@@ -53,5 +53,5 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp"
       t.union(i*W+j, i*W+j-1);
         ^~~~~
 
-20:59:43 ビルドに失敗しました。13 errors, 1 warnings. (経過 11s.795ms)
+20:46:27 ビルドに失敗しました。13 errors, 1 warnings. (経過 1s.975ms)
 
